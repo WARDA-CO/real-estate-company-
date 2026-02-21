@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baytak | Luxury Real Estate UAE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">BAYTAK</div>
+        <div class="nav-links">
+            <a href="#hero" data-i18n="nav_home">Home</a>
+            <a href="#about" data-i18n="nav_about">About Us</a>
+            <a href="#properties" data-i18n="nav_properties">Properties</a>
+            <a href="#why-us" data-i18n="nav_why">Why Us</a>
+            <a href="#contact" data-i18n="nav_contact">Contact</a>
+            <button class="lang-switch" id="lang-btn">AR</button>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <h1 class="reveal">BAYTAK | بيتك</h1>
+        <p class="reveal" data-i18n="hero_tagline">Your Gateway to Luxury Living in the UAE</p>
+        <a href="#properties" class="btn-primary reveal" data-i18n="hero_cta">View Properties</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container reveal">
+            <div class="section-header">
+                <h2 data-i18n="about_title">Elegance in Every Detail</h2>
+                <p data-i18n="about_desc">Baytak is the UAE's premier luxury real estate agency. We specialize in
+                    curated properties that define modern luxury. Trust and transparency are at the core of everything
+                    we do.</p>
+            </div>
+            <!-- Additional icons can be added here -->
+        </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section id="properties" style="background-color: var(--light-grey);">
+        <div class="section-header reveal">
+            <h2 data-i18n="prop_title">Featured Projects</h2>
+            <p data-i18n="prop_desc">Explore our exclusive selection of high-end residences across the Emirates.</p>
+        </div>
+
+        <div class="properties-grid">
+            <div class="property-card reveal">
+                <div class="property-img">
+                    <img src="دبي.jpg" alt="Dubai Property">
+                </div>
+                <div class="property-body">
+                    <span class="property-location">Dubai</span>
+                    <h3 data-i18n="p1_name">The Royal Residences</h3>
+                    <p data-i18n="p1_desc">Luxury penthouse with panoramic city views.</p>
+                    <span class="property-price">AED 12,500,000</span>
+                </div>
+            </div>
+
+            <div class="property-card reveal">
+                <div class="property-img">
+                    <img src="ابوظبي.jpg" alt="Abu Dhabi Property">
+                </div>
+                <div class="property-body">
+                    <span class="property-location">Abu Dhabi</span>
+                    <h3 data-i18n="p2_name">Emerald Waterfront</h3>
+                    <p data-i18n="p2_desc">Breathtaking seaside villas in the capital.</p>
+                    <span class="property-price">AED 8,900,000</span>
+                </div>
+            </div>
+
+            <div class="property-card reveal">
+                <div class="property-img">
+                    <img src="الشارقه.jpg" alt="Sharjah Property">
+                </div>
+                <div class="property-body">
+                    <span class="property-location">Sharjah</span>
+                    <h3 data-i18n="p3_name">Gardenia Estate</h3>
+                    <p data-i18n="p3_desc">Minimalist villas surrounded by lush greenery.</p>
+                    <span class="property-price">AED 4,200,000</span>
+                </div>
+            </div>
+
+            <div class="property-card reveal">
+                <div class="property-img">
+                    <img src="عجمان.jpg" alt="Ajman Property">
+                </div>
+                <div class="property-body">
+                    <span class="property-location">Ajman</span>
+                    <h3 data-i18n="p4_name">Azure Heights</h3>
+                    <p data-i18n="p4_desc">Modern apartment complex with stunning Gulf views.</p>
+                    <span class="property-price">AED 1,200,000</span>
+                </div>
+            </div>
+
+            <div class="property-card reveal">
+                <div class="property-img">
+                    <img src="راس الخيمه.jpg" alt="Ras Al Khaimah Property">
+                </div>
+                <div class="property-body">
+                    <span class="property-location">Ras Al Khaimah</span>
+                    <h3 data-i18n="p5_name">Peak View Villas</h3>
+                    <p data-i18n="p5_desc">Traditional design meets modern luxury in the mountains.</p>
+                    <span class="property-price">AED 3,500,000</span>
+                </div>
+            </div>
+
+            <div class="property-card reveal">
+                <div class="property-img">
+                    <img src="/العين.jpg" alt="Al Ain Property">
+                </div>
+                <div class="property-body">
+                    <span class="property-location">Al Ain</span>
+                    <h3 data-i18n="p6_name">Oasis Retreat</h3>
+                    <p data-i18n="p6_desc">A serene desert estate blending luxury with tradition.</p>
+                    <span class="property-price">AED 5,200,000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us">
+        <div class="section-header reveal">
+            <h2 data-i18n="why_title">Why Baytak?</h2>
+        </div>
+        <div class="properties-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <div class="property-card reveal" style="border: none; text-align: center;">
+                <div class="property-body">
+                    <i class="fas fa-award fa-3x" style="color: var(--primary-grey); margin-bottom: 20px;"></i>
+                    <h4 data-i18n="why_1_title">Quality Assurance</h4>
+                    <p data-i18n="why_1_desc">Only the most premium properties enter our portfolio.</p>
+                </div>
+            </div>
+            <div class="property-card reveal" style="border: none; text-align: center;">
+                <div class="property-body">
+                    <i class="fas fa-handshake fa-3x" style="color: var(--primary-grey); margin-bottom: 20px;"></i>
+                    <h4 data-i18n="why_2_title">Trust & Transparency</h4>
+                    <p data-i18n="why_2_desc">No hidden fees. Full disclosure on every transaction.</p>
+                </div>
+            </div>
+            <div class="property-card reveal" style="border: none; text-align: center;">
+                <div class="property-body">
+                    <i class="fas fa-clock fa-3x" style="color: var(--primary-grey); margin-bottom: 20px;"></i>
+                    <h4 data-i18n="why_3_title">Speed & Efficiency</h4>
+                    <p data-i18n="why_3_desc">Fast-track processing for all luxury acquisitions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background-color: var(--dark-grey); color: var(--white);">
+        <div class="section-header reveal">
+            <h2 style="color: var(--white);" data-i18n="contact_title">Contact Us</h2>
+        </div>
+        <div style="max-width: 600px; margin: 0 auto;" class="reveal">
+            <form id="contact-form">
+                <input type="text" placeholder="Name"
+                    style="width: 100%; padding: 15px; margin-bottom: 20px; background: transparent; border: 1px solid var(--mid-grey); color: white;">
+                <input type="email" placeholder="Email"
+                    style="width: 100%; padding: 15px; margin-bottom: 20px; background: transparent; border: 1px solid var(--mid-grey); color: white;">
+                <textarea placeholder="Message" rows="5"
+                    style="width: 100%; padding: 15px; margin-bottom: 20px; background: transparent; border: 1px solid var(--mid-grey); color: white;"></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="padding: 40px 8%; text-align: center; background: #111; color: #666; font-size: 13px;">
+        <div style="margin-bottom: 20px;">
+            <h2 style="color: var(--white); font-size: 20px; margin-bottom: 5px; letter-spacing: 1px;">BAYTAK | بيتك
+            </h2>
+            <p style="max-width: 500px; margin: 0 auto 15px; font-size: 13px;" data-i18n="footer_desc">Defining luxury
+                real estate across the UAE with trust and elegance.</p>
+            <div class="social-icons" style="display: flex; justify-content: center; gap: 15px; font-size: 18px;">
+                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-instagram"></i></a>
+                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-twitter"></i></a>
+                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <p style="opacity: 0.8;">&copy; 2026 BAYTAK REAL ESTATE UAE. ALL RIGHTS RESERVED.</p>
+        <p style="margin-top: 10px; font-size: 11px; color: #444;">Created by <span style="color: #777;">warda</span>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
