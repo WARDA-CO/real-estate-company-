@@ -160,39 +160,33 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" style="background-color: var(--dark-grey); color: var(--white);">
+    <section id="contact">
         <div class="section-header reveal">
-            <h2 style="color: var(--white);" data-i18n="contact_title">Contact Us</h2>
+            <h2 data-i18n="contact_title">Contact Us</h2>
         </div>
-        <div style="max-width: 600px; margin: 0 auto;" class="reveal">
+        <div class="contact-form-container" class="reveal">
             <form id="contact-form">
-                <input type="text" placeholder="Name"
-                    style="width: 100%; padding: 15px; margin-bottom: 20px; background: transparent; border: 1px solid var(--mid-grey); color: white;">
-                <input type="email" placeholder="Email"
-                    style="width: 100%; padding: 15px; margin-bottom: 20px; background: transparent; border: 1px solid var(--mid-grey); color: white;">
-                <textarea placeholder="Message" rows="5"
-                    style="width: 100%; padding: 15px; margin-bottom: 20px; background: transparent; border: 1px solid var(--mid-grey); color: white;"></textarea>
-                <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+                <input type="text" placeholder="Name" class="contact-input">
+                <input type="email" placeholder="Email" class="contact-input">
+                <textarea placeholder="Message" rows="5" class="contact-input"></textarea>
+                <button type="submit" class="btn-primary contact-submit">Send Message</button>
             </form>
         </div>
     </section>
 
-    <footer style="padding: 40px 8%; text-align: center; background: #111; color: #666; font-size: 13px;">
-        <div style="margin-bottom: 20px;">
-            <h2 style="color: var(--white); font-size: 20px; margin-bottom: 5px; letter-spacing: 1px;">BAYTAK | بيتك
-            </h2>
-            <p style="max-width: 500px; margin: 0 auto 15px; font-size: 13px;" data-i18n="footer_desc">Defining luxury
-                real estate across the UAE with trust and elegance.</p>
-            <div class="social-icons" style="display: flex; justify-content: center; gap: 15px; font-size: 18px;">
-                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-instagram"></i></a>
-                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-twitter"></i></a>
-                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" style="color: #666; transition: var(--transition);"><i class="fab fa-linkedin-in"></i></a>
+    <footer>
+        <div class="footer-content">
+            <h2>BAYTAK | بيتك</h2>
+            <p data-i18n="footer_desc">Defining luxury real estate across the UAE with trust and elegance.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
-        <p style="opacity: 0.8;">&copy; 2026 BAYTAK REAL ESTATE UAE. ALL RIGHTS RESERVED.</p>
-        <p style="margin-top: 10px; font-size: 11px; color: #444;">Created by <span style="color: #777;">warda</span>
-        </p>
+        <p class="footer-copyright">&copy; 2026 BAYTAK REAL ESTATE UAE. ALL RIGHTS RESERVED.</p>
+        <p class="footer-credit">Created by <span>warda</span></p>
     </footer>
 
     <script src="script.js"></script>
